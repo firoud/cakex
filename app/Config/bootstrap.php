@@ -73,12 +73,11 @@ Cache::config('default', array('engine' => 'File'));
 CakePlugin::loadAll();
 CakePlugin::load('Utils'); 
 CakePlugin::load('DebugKit');
-CakePlugin::load('Node');
 CakePlugin::load('Comments');
 CakePlugin::load('Configuration');
 CakePlugin::load('Menus'); 
 
- 
+CakePlugin::load('Node', array('routes' => true)); 
  
 CakePlugin::load('Contactform', array('routes' => true));
 

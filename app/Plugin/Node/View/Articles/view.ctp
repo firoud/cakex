@@ -1,14 +1,10 @@
-<?php 
-$this->Html->addCrumb(__('Articles'), array('controller' => 'articles', 'action' => 'index'));
-$this->Html->addCrumb($node['Node']['title'], NULL);
-?>
+<?php $this->Html->addCrumb($node['Node']['title'], NULL); ?>
 
 
 
-<div class="row"> 
-	<div class="col-md-12"> 
+ 
   
-    <h2><?php echo $this->Html->link($node['Node']['title'], array('action' => 'view', $node['Node']['id'])); ?></h2>
+    <h2><?php echo $node['Node']['title']; ?></h2>
     
 	<div class="meta submitted">
     <?php echo __('Submitted by'); ?> <?php echo $node['User']['username']; ?> <?php echo __('on'); ?> 
@@ -70,13 +66,3 @@ $this->Html->addCrumb($node['Node']['title'], NULL);
    </ul>
    
    </div>
-
-		
-
-		
-
-	</div>	
-</div>	
-
-
-

@@ -62885,3 +62885,65 @@ Request URL: /cakex/admin/taxonomy/images/photos/user1.png
 Stack Trace:
 #0 C:\xampp\htdocs\cakex\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-11-22 16:57:00 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /cakex/pages/view/9
+Stack Trace:
+#0 C:\xampp\htdocs\cakex\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakex\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakex\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 23:03:05 Error: [MissingControllerException] Controller class ArticlesController could not be found.
+Exception Attributes: array (
+  'class' => 'ArticlesController',
+  'plugin' => NULL,
+)
+Request URL: /cakex/articles/9
+Stack Trace:
+#0 C:\xampp\htdocs\cakex\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-11-22 17:04:14 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /cakex/pages/view/9
+Stack Trace:
+#0 C:\xampp\htdocs\cakex\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakex\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakex\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 17:04:22 Error: [NotFoundException] Invalid article
+Request URL: /cakex/articles/
+Stack Trace:
+#0 [internal function]: ArticlesController->view()
+#1 C:\xampp\htdocs\cakex\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(ArticlesController), Array)
+#2 C:\xampp\htdocs\cakex\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cakex\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(ArticlesController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cakex\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-11-22 17:17:54 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /cakex/pages/view/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakex\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakex\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakex\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-11-22 17:18:05 Error: [MissingActionException] Action PagesController::display() could not be found.
+Exception Attributes: array (
+  'controller' => 'PagesController',
+  'action' => 'display',
+)
+Request URL: /cakex/pages/1
+Stack Trace:
+#0 C:\xampp\htdocs\cakex\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cakex\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cakex\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
