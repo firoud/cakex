@@ -1,0 +1,46 @@
+2014-11-11 10:54:58 Debug: Array
+(
+    [headers] => From: User Management Plugin <example@example.com>
+X-Mailer: CakePHP Email
+Date: Tue, 11 Nov 2014 10:54:49 -0500
+Message-ID: <546231494f884c16995d1260cbdd56cb@localhost>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+    [message] => Hi abder, Click the link below to complete your registration 
+
+ http://localhost/cakex/userVerification?ident=2&activate=9f5c3c8d53b36d9fb5b945e4f3517dd0
+
+
+)
+
+2014-11-11 11:10:19 Debug: Array
+(
+    [headers] => From: User Management Plugin <example@example.com>
+X-Mailer: CakePHP Email
+Date: Tue, 11 Nov 2014 11:10:18 -0500
+Message-ID: <546234eaf15847fa91f61260cbdd56cb@localhost>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+    [message] => Welcome abderrahman, Thank you for your registration on http://localhost/cakex/ 
+
+ Thanks,
+User Management Plugin
+
+
+)
+
+2014-11-11 11:26:27 Debug: permission: actionUrl-users/addUser
+2014-11-11 11:26:57 Debug: permission: actionUrl-users/addUser
+2014-11-12 07:29:32 Debug: permission: actionUrl-nodes/admin_index
+2014-11-12 07:32:13 Debug: permission: actionUrl-nodes/admin_index
+2014-11-12 15:42:28 Debug: permission: actionUrl-nodes/admin_index
+2014-11-12 15:42:39 Debug: permission: actionUrl-links/admin_index
+2014-11-13 12:53:31 Debug: permission: actionUrl-users/admin_login
+2014-11-13 12:57:43 Debug: permission: actionUrl-users/admin_login
+2014-11-13 12:58:03 Debug: permission: actionUrl-users/admin_login
+2014-11-13 13:00:20 Debug: permission: actionUrl-users/admin_login
+2014-11-13 13:01:07 Debug: permission: actionUrl-users/admin_login
+2014-11-13 13:02:10 Debug: permission: actionUrl-nodes/admin_add
+2014-11-18 11:51:16 Debug: permission: actionUrl-nodes/admin_add
